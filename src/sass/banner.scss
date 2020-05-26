@@ -1,0 +1,15 @@
+@import 'mixins.scss';
+
+.banner-container {
+    width: 100%;
+    background-image: url('../Assets/Pizza.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    @include center;
+
+    h1 {
+        font-size: 4em;
+        color: #fff;
+    }
+}
+

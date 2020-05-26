@@ -1,11 +1,19 @@
 import React from "react";
-
+import Nav from './components/Nav.jsx';
+import Banner from './components/Banner.jsx';
 const App = () => {
   return (
-    <>
-      <h1>Lambda Eats</h1>
-      <p>You can remove this code and create your own header</p>
-    </>
+    <div className='App'>
+      <div className='main-container'>
+        <Nav />
+        <section className='main-content'>
+          <Banner />
+        </section>
+
+      </div>
+     
+
+    </div>
   );
 };
 export default App;

@@ -1,0 +1,9 @@
+@mixin center {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+@mixin dim-image {
+        filter: brightness(50%)
+}
